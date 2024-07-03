@@ -30,4 +30,4 @@ left join (select mg.mov_id as movid, g.gen_title as gent from movie_genres mg, 
 --11.	Find the number of director who directed drama movies
 
 --12.	Count the number of male and female actor
-
+select act_gender, count(act_gender) from actor group by act_gender;
